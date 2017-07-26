@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SIENN Recruits</title>
+
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header class="logo">
+        <img src="http://www.sienn.pl/siennpolandnewwebsite/upload/1logo-header.png" />
+    </header>
+    <div class="page-content">
+        <div class="login-content">
+            <form id="loginForm" action="#">
+                <div>
+                    <label>Username</label>
+                    <input id="username" name="username" type="text" />
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input id="password" name="password" type="password">
+                </div>
+                <div>
+                    <input id="loginButton" type="submit" value="LogIn" />
+                </div>
+                <div id="formErrorMessage" class="alert"></div>
+            </form>
+        </div>
+
+        <div id="mainContent">
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
